@@ -2,7 +2,7 @@
 <div align="center">
 
   <!-- Logo/Header Banner Placeholder -->
-  <img src="https://raw.githubusercontent.com/connect-ethiopia/.github/main/assets/banner.png" alt="Connect Ethiopia Banner" width="100%" />
+  <img src="../ChatGPT Image Aug 2, 2026, 10_51_18 AM.png" alt="Connect Ethiopia Banner" width="100%" />
 
   <br/><br/>
 
