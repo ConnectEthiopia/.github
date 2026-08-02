@@ -1,54 +1,273 @@
 ---
-name: "🐛 Futuristic Bug Report"
-about: Report a system anomaly, performance drop, or code failure.
-title: '[BUG]: '
-labels: 'bug, needs-triage'
-assignees: ''
+name: "🐛 Bug Report"
+description: Report a bug or unexpected behavior to help improve Connect Ethiopia projects.
+title: "[BUG]: "
+labels:
+  - bug
+assignees: []
 ---
 
-## ⚡ System Anomaly Overview
-> **Brief description:** A high-level, clear summary of the bug.
+# 🐛 Bug Report
 
----
-
-## 🔬 Behavior Analysis
-
-### 🎯 Expected Behavior
-A precise summary of what the system **should** do under normal operating conditions.
-
-### ⚠️ Actual Behavior
-A precise summary of what the system **currently** does (error state, crash, wrong output).
+Thank you for taking the time to report a bug. Please complete the sections below to help us investigate and resolve the issue efficiently.
 
 ---
 
-## 🛠 Impacted Architecture Layer
-Select the primary component affected by checking the box:
+# 📋 Summary
 
-- [ ] 🎨 **Frontend Module** (`Next.js` / `React` / `Tailwind CSS`)
-- [ ] ⚙️ **Backend Pipeline** (`Node.js` / `Express` / `PostgreSQL`)
-- [ ] 📱 **Mobile Infrastructure** (`Flutter` / `Android SDK`)
-- [ ] 🤖 **AI & Streaming API** (`Gemini API` / `Web Audio` / `Python MT5`)
-- [ ] ☁️ **DevOps & Cloud** (`Docker` / `GitHub Actions` / `NGINX`)
+Provide a clear and concise description of the issue.
 
----
+Example:
 
-## 🔄 Reproduction Steps
-1. Execute command / Open route: `...`
-2. Pass input data / Trigger action: `...`
-3. Observe system behavior at: `...`
+> The login page displays a blank screen after clicking the "Sign In" button.
 
 ---
 
-## 🖥️ System Environment & Telemetry
-| Component | Details |
-| :--- | :--- |
-| **Operating System** | *e.g., Linux / macOS / Windows / Android* |
-| **Runtime / Compiler** | *e.g., Node.js v20.x, Python 3.11, Flutter 3.x* |
-| **Browser / Client** | *e.g., Chrome, Firefox, Postman, Native App* |
-| **Commit / Version** | *e.g., Commit `a1b2c3d` or `v1.2.0`* |
+# 📦 Project
+
+Which project is affected?
+
+- [ ] connect-ethiopia-web
+- [ ] connect-ethiopia-api
+- [ ] connect-ethiopia-mobile
+- [ ] connect-ethiopia-ai
+- [ ] documentation
+- [ ] Other (please specify)
+
+Project Name:
+
+```
+Enter project name
+```
 
 ---
 
-## 📋 Stack Trace & Debug Logs
-```shell
-# Paste error output, stack trace, or server logs here
+# 📍 Environment
+
+## Operating System
+
+- [ ] Windows
+- [ ] macOS
+- [ ] Linux
+- [ ] Android
+- [ ] iOS
+
+Version:
+
+```
+Example: Windows 11
+```
+
+---
+
+## Browser
+
+- [ ] Chrome
+- [ ] Firefox
+- [ ] Edge
+- [ ] Safari
+- [ ] Other
+
+Version:
+
+```
+Example: Chrome 139
+```
+
+---
+
+## Device
+
+- [ ] Desktop
+- [ ] Laptop
+- [ ] Tablet
+- [ ] Mobile
+
+---
+
+## Application Version
+
+```
+Example: v1.0.0
+```
+
+---
+
+# 🔁 Steps to Reproduce
+
+Describe exactly how to reproduce the issue.
+
+1.
+2.
+3.
+4.
+5.
+
+---
+
+# ✅ Expected Behavior
+
+Describe what you expected to happen.
+
+---
+
+# ❌ Actual Behavior
+
+Describe what actually happened.
+
+---
+
+# 📸 Screenshots / Screen Recording
+
+If applicable, attach screenshots or videos.
+
+Drag and drop files here.
+
+---
+
+# 📝 Error Messages
+
+Paste any error messages, stack traces, or console logs.
+
+```text
+Paste logs here
+```
+
+---
+
+# 📄 Console Output
+
+If applicable, paste browser console output.
+
+```text
+Console output
+```
+
+---
+
+# 📑 Server Logs
+
+If applicable, paste backend logs.
+
+```text
+Server logs
+```
+
+---
+
+# 🗄 Database
+
+Database used:
+
+- [ ] PostgreSQL
+- [ ] MySQL
+- [ ] MongoDB
+- [ ] SQLite
+- [ ] Other
+
+Database Version:
+
+```
+Example: PostgreSQL 17
+```
+
+---
+
+# 🌐 API Information
+
+Affected endpoint (if applicable)
+
+```
+GET /api/users
+POST /api/auth/login
+```
+
+Response:
+
+```json
+{
+  "message": ""
+}
+```
+
+---
+
+# 💡 Possible Solution
+
+If you have an idea for fixing the issue, describe it here.
+
+---
+
+# 🔥 Severity
+
+Choose one.
+
+- [ ] Critical
+- [ ] High
+- [ ] Medium
+- [ ] Low
+
+---
+
+# 🚨 Impact
+
+Who is affected?
+
+- [ ] All users
+- [ ] Some users
+- [ ] Administrators
+- [ ] Developers
+- [ ] Mobile users
+- [ ] Web users
+
+---
+
+# 🏷 Labels
+
+Suggested labels:
+
+- bug
+- frontend
+- backend
+- mobile
+- ai
+- documentation
+- api
+- ui
+- ux
+
+---
+
+# 📚 Additional Context
+
+Add any additional information that may help us investigate.
+
+Examples:
+
+- Related issues
+- Recent changes
+- Configuration
+- Network conditions
+
+---
+
+# ✔️ Checklist
+
+Please confirm the following before submitting.
+
+- [ ] I searched existing issues before opening this report.
+- [ ] I have provided clear reproduction steps.
+- [ ] I included screenshots if applicable.
+- [ ] I included logs if applicable.
+- [ ] I tested using the latest version.
+- [ ] I understand additional information may be requested.
+
+---
+
+# 🙌 Thank You
+
+Thank you for helping improve **Connect Ethiopia**.
+
+Together we are building Ethiopia's largest open-source technology community.
+
+🇪🇹 Connect Ethiopia
